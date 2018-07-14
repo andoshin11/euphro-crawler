@@ -28,3 +28,11 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/PuerkitoBio/goquery"
+  version = "1.4.1"
+
+[[constraint]]
+  branch = "master"
+  name = "googlemaps.github.io/maps"
