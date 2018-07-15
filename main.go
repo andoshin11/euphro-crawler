@@ -8,5 +8,5 @@ import (
 
 func main() {
 	ctx := context.Background()
-	handler.CrawlMuseumListHandler(ctx)
+	handler.CarwlMuseumDetailHandler(ctx)
 }

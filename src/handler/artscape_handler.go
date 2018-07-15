@@ -19,3 +19,14 @@ func CrawlMuseumListHandler(ctx context.Context) {
 	worker.Crawl(ctx)
 	return
 }
+
+func CarwlMuseumDetailHandler(ctx context.Context) {
+	client, err := client.NewFirestoreClient(ctx)
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	worker := worker.NewArtscapeWorker(client)
+	worker.CrawlDetail(ctx)
+	return
+}
