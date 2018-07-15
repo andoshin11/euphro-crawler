@@ -41,12 +41,6 @@
   version = "v1.4.1"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/andoshin11/euphro-crawler"
-  packages = ["src/gateway"]
-  revision = "93ce98599ab70d8c076c075dac32c7b57c84f1de"
-
-[[projects]]
   name = "github.com/andybalholm/cascadia"
   packages = ["."]
   revision = "901648c87902174f774fac311d7f176f8647bdaa"
@@ -253,6 +247,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "e21af7ca6fb549cfbfd832eb89d46fcbeb61c72d8e8613a571e6ee9169804744"
+  inputs-digest = "36ba483bd6b07865d11c2ae74137a0abb53a8d34c9e61ed97472639a80972455"
   solver-name = "gps-cdcl"
   solver-version = 1
